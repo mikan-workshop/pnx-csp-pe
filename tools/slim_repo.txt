@@ -1,0 +1,28 @@
+﻿
+実行とコミットの手順
+
+
+ステップ1：まずはドライラン（確認のみ）を実行
+
+bash
+python tools/slim_repo.py
+コードは注意してご使用ください。
+Total protected files の数と、削除予定ファイルのサンプルが表示されます。
+
+ステップ2：問題なければ --execute をつけて削除を実行
+
+bash
+python tools/slim_repo.py --execute
+コードは注意してご使用ください。
+
+ステップ3：Windows版（Win32）がまだそのままビルドできるか最終チェック（推奨）
+
+スリム化した直後に、残した source/vc++2017/build_fm7.bat を一度実行してみてください。これでFM-7系6機種がすべてエラーなくビルドできれば、「必要なファイルは1つも消しておらず、不要なファイルだけを100%綺麗に削ぎ落とした」 ことが証明されます。
+
+ステップ4：スリム化結果をコミット＆プッシュ
+
+bash
+git add -A
+git commit -m "chore: Slim down repository to FM-7 series only"
+git push origin main
+コードは注意してご使用ください。

@@ -21,6 +21,12 @@ copy bin\x64\Release\fm77.exe build_vc15\fm7\.
 copy bin\x64\Release\fm77l4.exe build_vc15\fm7\.
 copy bin\x64\Release\fm77av.exe build_vc15\fm7\.
 
+msbuild.exe fm77av40.vcxproj /t:clean;rebuild /p:Configuration=Release;Platform="x64"
+msbuild.exe fm77av40ex.vcxproj /t:clean;rebuild /p:Configuration=Release;Platform="x64"
+mkdir build_vc15\fm77av40
+copy bin\x64\Release\fm77av40.exe build_vc15\fm77av40\.
+copy bin\x64\Release\fm77av40ex.exe build_vc15\fm77av40\.
+
 pause
 echo on
 exit /b
