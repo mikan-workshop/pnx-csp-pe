@@ -1,4 +1,4 @@
-/*
+﻿/*
 	COLECO ColecoVision Emulator 'yaCOLECOVISION'
 
 	Author : tanam

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-8201 Emulator 'ePC-8201'
 
 	Author : Takeda.Toshiya

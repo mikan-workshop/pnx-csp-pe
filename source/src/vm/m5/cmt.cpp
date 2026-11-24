@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SORD m5 Emulator 'Emu5'
 
 	Author : Takeda.Toshiya

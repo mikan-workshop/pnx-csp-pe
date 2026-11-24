@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Computer Research CRC-80 Emulator 'eCRC-80'
 
 	Author : Takeda.Toshiya

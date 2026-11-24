@@ -1,4 +1,4 @@
-/* ASG 971222 -- rewrote this interface */
+﻿/* ASG 971222 -- rewrote this interface */
 #pragma once
 
 #ifndef __I86INTF_H__

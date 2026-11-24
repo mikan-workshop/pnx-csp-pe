@@ -1,4 +1,4 @@
-//#include	"compiler.h"
+﻿//#include	"compiler.h"
 #include	"cpucore.h"
 
 /* Z_FLAG, S_FLAG, P_FLAG, C_FLAG */

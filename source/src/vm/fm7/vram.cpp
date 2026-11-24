@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Common source code project -> FM-7 -> Display -> Vram access
  * (C) 2015 K.Ohta <whatisthis.sowhat _at_ gmail.com>
  * History:

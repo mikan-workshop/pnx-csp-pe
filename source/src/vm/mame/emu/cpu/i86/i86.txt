@@ -1,4 +1,4 @@
-intel 8086 and compatibles
+﻿intel 8086 and compatibles
 --------------------------
 
 this info is here, 

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC N5200 Emulator 'eN5200'
 
 	Author : Takeda.Toshiya

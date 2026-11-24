@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SEGA MASTER SYSTEM Emulator 'yaMASTER SYSTEM'
 
 	Author : tanam

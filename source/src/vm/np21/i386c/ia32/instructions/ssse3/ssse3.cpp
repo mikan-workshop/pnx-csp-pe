@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * Copyright (c) 2024 Gocaine Project
  * All rights reserved.
  *
@@ -44,15 +44,15 @@
 
 static INLINE void
 SSSE3_check_NM_EXCEPTION(){
-	// SSSE3‚È‚µ‚È‚çUD(–³ŒøƒIƒyƒR[ƒh—áŠO)‚ð”­¶‚³‚¹‚é
+	// SSSE3ãªã—ãªã‚‰UD(ç„¡åŠ¹ã‚ªãƒšã‚³ãƒ¼ãƒ‰ä¾‹å¤–)ã‚’ç™ºç”Ÿã•ã›ã‚‹
 	if(!(i386cpuid.cpu_feature_ecx & CPU_FEATURE_ECX_SSSE3)){
 		EXCEPTION(UD_EXCEPTION, 0);
 	}
-	// ƒGƒ~ƒ…ƒŒ[ƒVƒ‡ƒ“‚È‚çUD(–³ŒøƒIƒyƒR[ƒh—áŠO)‚ð”­¶‚³‚¹‚é
+	// ã‚¨ãƒŸãƒ¥ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãªã‚‰UD(ç„¡åŠ¹ã‚ªãƒšã‚³ãƒ¼ãƒ‰ä¾‹å¤–)ã‚’ç™ºç”Ÿã•ã›ã‚‹
 	if(CPU_CR0 & CPU_CR0_EM){
 		EXCEPTION(UD_EXCEPTION, 0);
 	}
-	// ƒ^ƒXƒNƒXƒCƒbƒ`Žž‚ÉNM(ƒfƒoƒCƒXŽg—p•s‰Â—áŠO)‚ð”­¶‚³‚¹‚é
+	// ã‚¿ã‚¹ã‚¯ã‚¹ã‚¤ãƒƒãƒæ™‚ã«NM(ãƒ‡ãƒã‚¤ã‚¹ä½¿ç”¨ä¸å¯ä¾‹å¤–)ã‚’ç™ºç”Ÿã•ã›ã‚‹
 	if (CPU_CR0 & CPU_CR0_TS) {
 		EXCEPTION(NM_EXCEPTION, 0);
 	}
@@ -63,7 +63,7 @@ SSSE3_setTag(void)
 {
 }
 
-// mmx.c‚Ì‚à‚Ì‚Æ“¯‚¶
+// mmx.cã®ã‚‚ã®ã¨åŒã˜
 static INLINE void
 MMX_setTag(void)
 {
@@ -89,7 +89,7 @@ MMX_setTag(void)
  * SSE3 interface
  */
 
-// ƒR[ƒh‚ª’·‚­‚È‚é‚Ì‚Å‚â‚â‹­ˆø‚É‹¤’Ê‰»
+// ã‚³ãƒ¼ãƒ‰ãŒé•·ããªã‚‹ã®ã§ã‚„ã‚„å¼·å¼•ã«å…±é€šåŒ–
 // xmm/m128 -> xmm
 static INLINE void SSE_PART_GETDATA1DATA2_PD(double **data1, double **data2, double *data2buf){
 	UINT32 op;

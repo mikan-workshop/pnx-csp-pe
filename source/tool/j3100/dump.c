@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Dump J-3100 IPL/KANJI ROM
 */
 

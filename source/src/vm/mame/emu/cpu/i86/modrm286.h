@@ -1,4 +1,4 @@
-static struct
+﻿static struct
 {
 	struct
 	{

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SORD M23 Emulator 'Emu23'
 	SORD M68 Emulator 'Emu68'
 

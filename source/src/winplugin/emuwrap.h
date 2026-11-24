@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 #ifndef __emuwrap_H__
 #define __emuwrap_H__
@@ -90,13 +90,13 @@ extern "C"
 
 extern "C"
 {
-	// Low-Level Native Plugin Interface ‚Å Unity ‘¤‚©‚çŒÄ‚Î‚ê‚é
+	// Low-Level Native Plugin Interface ã§ Unity å´ã‹ã‚‰å‘¼ã°ã‚Œã‚‹
 	UNITY_INTERFACE_EXPORT void UNITY_INTERFACE_API UnityPluginLoad(IUnityInterfaces* unityInterfaces);
-	// Low-Level Native Plugin Interface ‚Å Unity ‘¤‚©‚çŒÄ‚Î‚ê‚é
+	// Low-Level Native Plugin Interface ã§ Unity å´ã‹ã‚‰å‘¼ã°ã‚Œã‚‹
 	UNITY_INTERFACE_EXPORT void UNITY_INTERFACE_API UnityPluginUnload();
-	// Unity ‘¤‚Å GL.IssuePlugin(‚±‚ÌŠÖ”‚Ìƒ|ƒCƒ“ƒ^, eventId) ‚ğŒÄ‚Ô‚ÆƒŒƒ“ƒ_ƒŠƒ“ƒOƒXƒŒƒbƒh‚©‚çŒÄ‚Î‚ê‚é
+	// Unity å´ã§ GL.IssuePlugin(ã“ã®é–¢æ•°ã®ãƒã‚¤ãƒ³ã‚¿, eventId) ã‚’å‘¼ã¶ã¨ãƒ¬ãƒ³ãƒ€ãƒªãƒ³ã‚°ã‚¹ãƒ¬ãƒƒãƒ‰ã‹ã‚‰å‘¼ã°ã‚Œã‚‹
 	void UNITY_INTERFACE_API OnRenderEvent(int eventId);
-	// GL.IssuePlugin ‚Å“o˜^‚·‚éƒR[ƒ‹ƒoƒbƒNŠÖ”‚Ìƒ|ƒCƒ“ƒ^‚ğ•Ô‚·
+	// GL.IssuePlugin ã§ç™»éŒ²ã™ã‚‹ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯é–¢æ•°ã®ãƒã‚¤ãƒ³ã‚¿ã‚’è¿”ã™
 	UNITY_INTERFACE_EXPORT UnityRenderingEvent UNITY_INTERFACE_API GetRenderEventFunc();
 //	UNITY_INTERFACE_EXPORT void* UNITY_INTERFACE_API Init();
 	UNITY_INTERFACE_EXPORT void UNITY_INTERFACE_API Exec();

@@ -1,4 +1,4 @@
-// license:BSD-3-Clause
+﻿// license:BSD-3-Clause
 // copyright-holders:Ville Linde, Barry Rodewald, Carl, Philip Bennett
 static UINT32 I386OP(shift_rotate32)(i386_state *cpustate, UINT8 modrm, UINT32 value, UINT8 shift)
 {

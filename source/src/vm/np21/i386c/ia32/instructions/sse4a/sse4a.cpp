@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * Copyright (c) 2024 SimK
  * All rights reserved.
  *
@@ -23,7 +23,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-// AMD64 Architecture Programmerfs Manual Volume 4 ‚Ìà–¾‚ðŒ©‚ÄŽÀ‘•
+// AMD64 Architecture Programmerâ€™s Manual Volume 4 ã®èª¬æ˜Žã‚’è¦‹ã¦å®Ÿè£…
 	
 //#include "compiler.h"
 
@@ -149,7 +149,7 @@ void SSE4a_MOVNTSD(void)
 	data1 = (float*)(&(FPU_STAT.xmm_reg[idx]));
 	if ((op) >= 0xc0)
 	{
-		// XXX: ‚±‚±‚Í‚Ç‚¤ˆµ‚¤?
+		// XXX: ã“ã“ã¯ã©ã†æ‰±ã†?
 		EXCEPTION(UD_EXCEPTION, 0);
 		//data2 = (float*)(&(FPU_STAT.xmm_reg[sub]));
 		//for(i=0;i<4;i++){
@@ -182,7 +182,7 @@ void SSE4a_MOVNTSS(void)
 	data1 = (float*)(&(FPU_STAT.xmm_reg[idx]));
 	if ((op) >= 0xc0)
 	{
-		// XXX: ‚±‚±‚Í‚Ç‚¤ˆµ‚¤?
+		// XXX: ã“ã“ã¯ã©ã†æ‰±ã†?
 		EXCEPTION(UD_EXCEPTION, 0);
 		//data2 = (float*)(&(FPU_STAT.xmm_reg[sub]));
 		//for(i=0;i<4;i++){

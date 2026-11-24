@@ -1,4 +1,4 @@
-/*
+﻿/*
 	FUJITSU FM16pi Emulator 'eFM16pi'
 
 	Author : Takeda.Toshiya

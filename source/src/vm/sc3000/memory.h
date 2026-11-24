@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SEGA SC-3000 Emulator 'eSC-3000'
 
 	Author : Takeda.Toshiya

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-2001 Emulator 'ePC-2001'
 
 	Origin : PockEmul

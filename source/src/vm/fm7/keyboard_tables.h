@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Common Source code Project -> VM -> FM-7/77AV -> Keyboard (Tables)
  * (C) 2015 K.Ohta <whatisthis.sowhat _at_ gmail.com>
  * Licence: GPLv2

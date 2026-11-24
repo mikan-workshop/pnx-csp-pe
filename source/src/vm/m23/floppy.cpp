@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	SORD M23 Emulator 'Emu23'
 
 	Author : Takeda.Toshiya
@@ -14,9 +14,9 @@ void FLOPPY::write_io8(uint32_t addr, uint32_t data)
 {
 	switch(addr & 0xff) {
 	case 0xcd:
-		// bit7 : ??? (BASIC‚Å‘€ì‚µ‚Ä‚¢‚é 0x10,0x50,0xd0)
+		// bit7 : ??? (BASICã§æ“ä½œã—ã¦ã„ã‚‹ 0x10,0x50,0xd0)
 		// bit6 : density (0=single, 1=double)
-		// bit5 : side (M2-FDI-V‚Ì‚İ)
+		// bit5 : side (M2-FDI-Vã®ã¿)
 		// bit4 : 1=ready ????
 		// bit3 : 1=drive #4
 		// bit2 : 1=drive #3

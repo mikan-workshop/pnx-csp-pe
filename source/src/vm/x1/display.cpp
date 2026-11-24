@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	SHARP X1 Emulator 'eX1'
 	SHARP X1twin Emulator 'eX1twin'
 	SHARP X1turbo Emulator 'eX1turbo'
@@ -402,7 +402,7 @@ uint32_t DISPLAY::read_io8(uint32_t addr)
 	case 0x1600:
 		get_cur_pcg(addr);
 		return pcg_r[cur_code][cur_line];
-	// –{—ˆ‚Í1400H‚Æ1700H‚Í“¯ˆê‹@”\‚È‚Ì‚¾‚ª...
+	// æœ¬æ¥ã¯1400Hã¨1700Hã¯åŒä¸€æ©Ÿèƒ½ãªã®ã ãŒ...
 	case 0x1700:
 		get_cur_pcg(addr);
 		return pcg_g[cur_code][cur_line];
@@ -743,7 +743,7 @@ void DISPLAY::get_cur_code_line()
 	cur_line = (vt_line % ch_height);
 #ifdef _X1TURBO_FEATURE
 	uint8_t knj = vram_k[addr & 0x7ff];
-	// –{—ˆ‚ÍŠ¿šFONT‚â16dorANK‚à“Ç‚ß‚é‚Ì‚¾‚ª...
+	// æœ¬æ¥ã¯æ¼¢å­—FONTã‚„16dorANKã‚‚èª­ã‚ã‚‹ã®ã ãŒ...
 	if(knj & 0x80) {
 		cur_code = (cur_code & 0xfe) | (cur_line & 1);
 	}
@@ -1112,8 +1112,8 @@ void DISPLAY::draw_text(int yy)
 #ifdef _X1TURBO_FEATURE
 			// underline mode, mask & draw
 			if (ksen_blank) {
-				// ƒAƒ“ƒ_[ƒ‰ƒ“‚É‚ÍAƒOƒ‰ƒtƒBƒbƒN‚Ì palette 1 ‚ÌF‚ª•\¦‚³‚ê‚é
-				// ‰¼’l‚ğƒZƒbƒg‚µ‚ÄAcg_draw()‚ÅQÆ‚µ‚ÄƒOƒ‰ƒtƒBƒbƒN‚É’uŠ·‚·‚é
+				// ã‚¢ãƒ³ãƒ€ãƒ¼ãƒ©ãƒ³ã«ã¯ã€ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ã® palette 1 ã®è‰²ãŒè¡¨ç¤ºã•ã‚Œã‚‹
+				// ä»®å€¤ã‚’ã‚»ãƒƒãƒˆã—ã¦ã€cg_draw()ã§å‚ç…§ã—ã¦ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ã«ç½®æ›ã™ã‚‹
 				d[0] = d[1] = d[2] = d[3] = d[4] = d[5] = d[6] = d[7] = (ksen_line && (knj & 0x20)) ? 8 : 0;
 			} else 
 #endif
@@ -1209,15 +1209,15 @@ void DISPLAY::draw_cg(int line, int plane)
 		int ofs_r1 = column40 ? (ofs_r0 ^ 0x400) : hireso ? ofs_r0 : (ofs_r0 + 0xc000);
 		int ofs_g1 = column40 ? (ofs_g0 ^ 0x400) : hireso ? ofs_g0 : (ofs_g0 + 0xc000);
 		
-		// ƒAƒiƒƒOƒ‚[ƒh‚ÌKSEN‚É‚Ç‚ÌF‚ª‚Â‚­‚©‚Í–¢’²¸AB=1111b‚Æ‰¼’è
+		// ã‚¢ãƒŠãƒ­ã‚°ãƒ¢ãƒ¼ãƒ‰æ™‚ã®KSENã«ã©ã®è‰²ãŒã¤ãã‹ã¯æœªèª¿æŸ»ã€B=1111bã¨ä»®å®š
 		if(KSEN_EN) {
 			int underline_raster = FONT16_EN ? 18 : 9;
 			if(l == underline_raster) {
 				uint16_t* d = &zcg[plane][line][0];
-				uint8_t* t = &text[line][0]; // underline‚Ì—L–³‚ğtext[]‚©‚çE‚Á‚ÄˆÚ‚·
+				uint8_t* t = &text[line][0]; // underlineã®æœ‰ç„¡ã‚’text[]ã‹ã‚‰æ‹¾ã£ã¦ç§»ã™
 				for(int x = 0; x < hz_disp && x < width; x++) {
 					if(t[0] != 0) {
-						// ƒeƒLƒXƒg‚Ì‰¼KSEN‚©‚çƒOƒ‰ƒtƒBƒbƒN‚ÉˆÚ‚·
+						// ãƒ†ã‚­ã‚¹ãƒˆã®ä»®KSENã‹ã‚‰ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ã«ç§»ã™
 						d[0] = d[1] = d[2] = d[3] = d[4] = d[5] = d[6] = d[7] = 3 << 2;
 						t[0] = t[1] = t[2] = t[3] = t[4] = t[5] = t[6] = t[7] = 0;
 					} else {
@@ -1256,8 +1256,8 @@ void DISPLAY::draw_cg(int line, int plane)
 			}
 		}
 #if 1
-		// zpriority‚Åˆ—‚·‚é‚ÆAƒvƒŒ[ƒ“‚Ìæ“¾‚É’x‰„‚ª‚Å‚é‚Ì‚Å
-		// ‚±‚±‚Å‚Qƒrƒbƒg‰º‚ÖˆÚ“®‚µ‚Ä‚µ‚Ü‚¨‚¤
+		// zpriorityã§å‡¦ç†ã™ã‚‹ã¨ã€ãƒ—ãƒ¬ãƒ¼ãƒ³ã®å–å¾—ã«é…å»¶ãŒã§ã‚‹ã®ã§
+		// ã“ã“ã§ï¼’ãƒ“ãƒƒãƒˆä¸‹ã¸ç§»å‹•ã—ã¦ã—ã¾ãŠã†
 		if(!hireso && column40 && C64 && page) {
 			for(int x = 0; x < hz_disp && x < width; x++) {
 				uint16_t* d = &zcg[plane][line][x << 3];
@@ -1291,10 +1291,10 @@ void DISPLAY::draw_cg(int line, int plane)
 			int underline_raster = FONT16_EN ? 18 : 9;
 			if(l == underline_raster) {
 				uint8_t* d = &cg[line][0];
-				uint8_t* t = &text[line][0]; // underline‚Ì—L–³‚ğtext[]‚©‚çE‚Á‚ÄˆÚ‚·
+				uint8_t* t = &text[line][0]; // underlineã®æœ‰ç„¡ã‚’text[]ã‹ã‚‰æ‹¾ã£ã¦ç§»ã™
 				for(int x = 0; x < hz_disp && x < width; x++) {
 					if(t[0] != 0) {
-						// ƒeƒLƒXƒg‚Ì‰¼KSEN‚©‚çƒOƒ‰ƒtƒBƒbƒN‚ÉˆÚ‚·
+						// ãƒ†ã‚­ã‚¹ãƒˆã®ä»®KSENã‹ã‚‰ã‚°ãƒ©ãƒ•ã‚£ãƒƒã‚¯ã«ç§»ã™
 						d[0] = d[1] = d[2] = d[3] = d[4] = d[5] = d[6] = d[7] = 1;
 						t[0] = t[1] = t[2] = t[3] = t[4] = t[5] = t[6] = t[7] = 0;
 					} else {

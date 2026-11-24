@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-8001 Emulator 'ePC-8001'
 	NEC PC-8001mkII Emulator 'ePC-8001mkII'
 	NEC PC-8001mkIISR Emulator 'ePC-8001mkIISR'

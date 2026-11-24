@@ -1,4 +1,4 @@
-
+﻿
 /*============================================================================
 
 This C source file is part of the Berkeley SoftFloat IEEE Floating-Point

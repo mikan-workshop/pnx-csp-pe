@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Skelton for retropc emulator
 
 	Origin : MAME 0.168 Motorola 6840 (PTM)

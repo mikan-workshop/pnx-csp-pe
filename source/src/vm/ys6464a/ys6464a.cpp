@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHINKO SANGYO YS-6464A Emulator 'eYS-6464A'
 
 	Author : Takeda.Toshiya

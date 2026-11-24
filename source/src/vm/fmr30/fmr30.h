@@ -1,4 +1,4 @@
-/*
+﻿/*
 	FUJITSU FMR-30 Emulator 'eFMR-30'
 
 	Author : Takeda.Toshiya

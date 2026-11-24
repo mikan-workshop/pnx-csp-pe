@@ -1,4 +1,4 @@
-/*
+﻿/*
 	DUMP PC-98HA IPL/DICTIONARY/KANJI ROM
 */
 

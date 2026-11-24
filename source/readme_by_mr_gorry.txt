@@ -1,4 +1,4 @@
-◇ MICOM MAHJONG Emulator 'eMuCom Mahjong'on Common Source Code Project
+﻿◇ MICOM MAHJONG Emulator 'eMuCom Mahjong'on Common Source Code Project
    Hiroaki GOTO as GORRY / http://GORRY.hauN.org/
    Version 20200721a
 

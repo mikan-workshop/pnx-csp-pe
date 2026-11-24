@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA J-3100SL Emulator 'eJ-3100SL'
 
 	Author : Takeda.Toshiya

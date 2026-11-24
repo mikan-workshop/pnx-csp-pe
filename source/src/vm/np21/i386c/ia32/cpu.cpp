@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2002-2003 NONAKA Kimihiro
  * All rights reserved.
  *
@@ -373,7 +373,7 @@ exec_1step(void)
 			if (insttable_info[op] & INST_PREFIX)
 			{
 #if defined(USE_CPU_INLINEINST)
-				// �C�����C�����ߌQ�@�֐��e�[�u�������Ăяo�������������A�����u���������if�������ċt�ɒx���Ȃ�B�Ȃ̂ŌĂяo���p�x����������D�悵�Ĕz�u
+				// インライン命令群　関数テーブルよりも呼び出しが高速だが、多く置きすぎるとifが増えて逆に遅くなる。なので呼び出し頻度が高い物を優先して配置
 				if (!(op & 0x26)) {
 					(*insttable_1byte[0][op])();
 					continue;
@@ -438,7 +438,7 @@ exec_1step(void)
 #if defined(USE_CPU_INLINEINST)
 		if (CPU_INST_OP32)
 		{
-			// �C�����C�����ߌQ�@�֐��e�[�u�������Ăяo�������������A�����u���������if�������ċt�ɒx���Ȃ�B�Ȃ̂ŌĂяo���p�x����������D�悵�Ĕz�u
+			// インライン命令群　関数テーブルよりも呼び出しが高速だが、多く置きすぎるとifが増えて逆に遅くなる。なので呼び出し頻度が高い物を優先して配置
 			if (op == 0x8b)
 			{
 				UINT32* out;

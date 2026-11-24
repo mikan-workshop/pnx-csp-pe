@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CASIO FX-9000P Emulator 'eFX-9000P'
 
 	Author : Takeda.Toshiya

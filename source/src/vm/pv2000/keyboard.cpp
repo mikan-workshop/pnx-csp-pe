@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CASIO PV-2000 Emulator 'EmuGaki'
 
 	Author : Takeda.Toshiya

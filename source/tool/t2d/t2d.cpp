@@ -1,4 +1,4 @@
-/* tdlzhuf.c  module to perform lzss-huffman decompression
+Ôªø/* tdlzhuf.c  module to perform lzss-huffman decompression
    as is used in teledisk.exe
    Conditionally compiled main to convert *.td0 advanced 
    compression file back normal compression file.
@@ -715,7 +715,7 @@ void main(int argc, char *argv[])
 			d88sct.r = sct.r;
 			d88sct.n = sct.n;
 			d88sct.nsec = trk.nsec;
-			d88sct.dens = 0; // î{ñßìx
+			d88sct.dens = 0; // ÂÄçÂØÜÂ∫¶
 			d88sct.del = (sct.ctrl & 4) ? 0x10 : 0;
 			d88sct.stat = (sct.ctrl & 2) ? 0x10 : 0; // crc?
 			d88sct.size = secsize[sct.n & 3];

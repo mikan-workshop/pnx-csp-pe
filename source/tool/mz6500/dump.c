@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Dump MZ-6500 IPL ROM
 */
 

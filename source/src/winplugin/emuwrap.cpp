@@ -1,4 +1,4 @@
-// CSCP Unity Plugin Wrapper
+ï»¿// CSCP Unity Plugin Wrapper
 // By Takeshi Maruyama
 //
 
@@ -10,7 +10,7 @@ extern "C" HINSTANCE hInst;
 
 extern EMU* emu;
 
-static bool bInitialized = false;		// ƒvƒ‰ƒOƒCƒ“‰Šú‰»Ï‚İ‚©
+static bool bInitialized = false;		// ãƒ—ãƒ©ã‚°ã‚¤ãƒ³åˆæœŸåŒ–æ¸ˆã¿ã‹
 
 extern "C"
 {
@@ -42,7 +42,7 @@ LRESULT CALLBACK UnvisibleWindowProc(HWND hwnd, UINT message, WPARAM wParam, LPA
 /*
 BOOL CALLBACK EnumWindowsProc(HWND hWnd, LPARAM lParam)
 {
-	//ƒNƒ‰ƒX–¼æ“¾ 
+	//ã‚¯ãƒ©ã‚¹åå–å¾— 
 	DWORD pid = 0;
 	GetWindowThreadProcessId(hWnd, &pid);
 
@@ -83,7 +83,7 @@ void emuwrap::init()
 {
 	if (bInitialized) return;
 
-	// ƒI[ƒfƒBƒIƒXƒgƒŠ[ƒ~ƒ“ƒO•ÏŠ·ƒe[ƒuƒ‹
+	// ã‚ªãƒ¼ãƒ‡ã‚£ã‚ªã‚¹ãƒˆãƒªãƒ¼ãƒŸãƒ³ã‚°å¤‰æ›ãƒ†ãƒ¼ãƒ–ãƒ«
 	m_wavtbl = new float[0x10000];
 	for (int i = 0; i < 0x10000; i++)
 	{
@@ -97,7 +97,7 @@ void emuwrap::init()
 //	hwndApp = GetWindowHandleByPID(current);
 //	EnumWindows(EnumWindowsProc, NULL);
 
-	// ƒEƒBƒ“ƒhƒEƒNƒ‰ƒX‚Ì“o˜^
+	// ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ã‚¯ãƒ©ã‚¹ã®ç™»éŒ²
 	WNDCLASSEX wcex = { };
 	wcex.cbSize = sizeof(WNDCLASSEX);
 	wcex.style = WS_EX_NOACTIVATE;
@@ -114,13 +114,13 @@ void emuwrap::init()
 
 	if (!RegisterClassEx(&wcex)) return;
 
-	// ƒEƒBƒ“ƒhƒEì¬
+	// ã‚¦ã‚£ãƒ³ãƒ‰ã‚¦ä½œæˆ
 	hwndApp = CreateWindowEx(WS_EX_NOACTIVATE, strClassName, strTitle, WS_DISABLED /*WS_OVERLAPPEDWINDOW*/,
 		0, 0, 1, 1,
 		nullptr, nullptr, hInst, nullptr);
 	if (!hwndApp) return;
 
-	ShowWindow(hwndApp, SW_HIDE); // Window”ñ•\¦
+	ShowWindow(hwndApp, SW_HIDE); // Windowéè¡¨ç¤º
 
 	//
 	emu = new EMU(hwndApp, hInst);
@@ -157,9 +157,9 @@ void emuwrap::startEmulation()
 	initialize_config();
 	config.use_d2d1 = true;
 
-	// ƒƒCƒ“ƒ‹[ƒv
+	// ãƒ¡ã‚¤ãƒ³ãƒ«ãƒ¼ãƒ—
 
-	// ƒƒCƒ“ƒXƒŒƒbƒh
+	// ãƒ¡ã‚¤ãƒ³ã‚¹ãƒ¬ãƒƒãƒ‰
 	m_thread = std::thread([this] {
 		m_isRunning = true;
 
@@ -177,7 +177,7 @@ void emuwrap::startEmulation()
 		MSG msg = { };
 
 		while (m_isRunning && WM_QUIT != msg.message) {
-			auto start = std::chrono::system_clock::now();      // Œv‘ªƒXƒ^[ƒg‚ğ•Û‘¶
+			auto start = std::chrono::system_clock::now();      // è¨ˆæ¸¬ã‚¹ã‚¿ãƒ¼ãƒˆæ™‚åˆ»ã‚’ä¿å­˜
 			if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
 			{
 				TranslateMessage(&msg);
@@ -185,7 +185,7 @@ void emuwrap::startEmulation()
 			}
 			else
 			{
-				if (m_isSleep) {									// Às‚ğƒXƒŠ[ƒv‚µ‚Ä‚éH
+				if (m_isSleep) {									// å®Ÿè¡Œã‚’ã‚¹ãƒªãƒ¼ãƒ—ã—ã¦ã‚‹ï¼Ÿ
 					std::this_thread::yield();
 					continue;
 				}
@@ -264,7 +264,7 @@ void emuwrap::startEmulation()
 
 					{
 						std::lock_guard<std::mutex> lock(m_mutex);
-						// ‰æ–Ê‘‚«Š·‚¦
+						// ç”»é¢æ›¸ãæ›ãˆ
 						scrntype_t* dest = m_offscreen;
 						uint32_t data = 0;
 						for (int i = 0; i < m_height; i++) {
@@ -289,7 +289,7 @@ void emuwrap::startEmulation()
 
 void emuwrap::stopEmulation()
 {
-	// ƒXƒŒƒbƒh’â~
+	// ã‚¹ãƒ¬ãƒƒãƒ‰åœæ­¢
 	m_isSleep = true;
 	m_isRunning = false;
 	if (m_thread.joinable()) {
@@ -332,7 +332,7 @@ void emuwrap::emuSendAudio(float data[], int sz, int ch)
 
 extern "C"
 {
-	// Low-Level Native Plugin Interface ‚Å Unity ‘¤‚©‚çŒÄ‚Î‚ê‚é
+	// Low-Level Native Plugin Interface ã§ Unity å´ã‹ã‚‰å‘¼ã°ã‚Œã‚‹
 	UNITY_INTERFACE_EXPORT void UNITY_INTERFACE_API UnityPluginLoad(IUnityInterfaces* unityInterfaces)
 	{
 		g_unity = unityInterfaces;
@@ -340,7 +340,7 @@ extern "C"
 		g_emuwrap->init();
 	}
 
-	// Low-Level Native Plugin Interface ‚Å Unity ‘¤‚©‚çŒÄ‚Î‚ê‚é
+	// Low-Level Native Plugin Interface ã§ Unity å´ã‹ã‚‰å‘¼ã°ã‚Œã‚‹
 	UNITY_INTERFACE_EXPORT void UNITY_INTERFACE_API UnityPluginUnload()
 	{
 		if (!bInitialized) return;
@@ -351,13 +351,13 @@ extern "C"
 		g_emuwrap = nullptr;
 	}
 
-	// Unity ‘¤‚Å GL.IssuePlugin(‚±‚ÌŠÖ”‚Ìƒ|ƒCƒ“ƒ^, eventId) ‚ğŒÄ‚Ô‚ÆƒŒƒ“ƒ_ƒŠƒ“ƒOƒXƒŒƒbƒh‚©‚çŒÄ‚Î‚ê‚é
+	// Unity å´ã§ GL.IssuePlugin(ã“ã®é–¢æ•°ã®ãƒã‚¤ãƒ³ã‚¿, eventId) ã‚’å‘¼ã¶ã¨ãƒ¬ãƒ³ãƒ€ãƒªãƒ³ã‚°ã‚¹ãƒ¬ãƒƒãƒ‰ã‹ã‚‰å‘¼ã°ã‚Œã‚‹
 	void UNITY_INTERFACE_API OnRenderEvent(int eventId)
 	{
 		if (g_emuwrap) g_emuwrap->TextureUpdate();
 	}
 
-	// GL.IssuePlugin ‚Å“o˜^‚·‚éƒR[ƒ‹ƒoƒbƒNŠÖ”‚Ìƒ|ƒCƒ“ƒ^‚ğ•Ô‚·
+	// GL.IssuePlugin ã§ç™»éŒ²ã™ã‚‹ã‚³ãƒ¼ãƒ«ãƒãƒƒã‚¯é–¢æ•°ã®ãƒã‚¤ãƒ³ã‚¿ã‚’è¿”ã™
 	UNITY_INTERFACE_EXPORT UnityRenderingEvent UNITY_INTERFACE_API GetRenderEventFunc()
 	{
 		return OnRenderEvent;

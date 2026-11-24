@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Emulation of Fujitsu Japanese Communication Card.
  * (C) 2018 K.Ohta.
  * Note:

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CANON BX-1 Emulator 'eBX-1'
 
 	Author : Takeda.Toshiya

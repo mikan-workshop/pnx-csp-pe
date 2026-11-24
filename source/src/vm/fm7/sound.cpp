@@ -1,4 +1,4 @@
-/*
+﻿/*
  * FM-7 Main I/O [sound.cpp]
  *  - PSG, OPN, and Buzzer.
  *

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	ASCII MSX2 Emulator 'yaMSX2'
 
 	Author : umaiboux

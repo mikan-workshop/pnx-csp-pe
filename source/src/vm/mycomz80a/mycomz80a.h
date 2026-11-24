@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Japan Electronics College MYCOMZ-80A Emulator 'eMYCOMZ-80A'
 
 	Author : Takeda.Toshiya

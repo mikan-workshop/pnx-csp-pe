@@ -1,4 +1,4 @@
-/*
+﻿/*
 	FUJITSU FM16beta Emulator 'eFM16beta'
 
 	Author : Takeda.Toshiya

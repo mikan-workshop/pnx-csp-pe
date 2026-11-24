@@ -1,4 +1,4 @@
-/*
+﻿/*
  * DMAC HD6844/MC6844 [hd6844.h]
  *
  * Author: K.Ohta <whatisthis.sowhat _at_ gmail.com>

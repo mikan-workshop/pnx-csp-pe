@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	SORD M23 Emulator 'Emu23'
 	SORD M68 Emulator 'Emu68'
 
@@ -120,12 +120,12 @@ VM::VM(EMU* parent_emu) : VM_TEMPLATE(parent_emu)
 	ctc->set_context_zc0(sio, SIG_Z80SIO_RX_CLK_CH0, 1);
 	ctc->set_context_zc1(sio, SIG_Z80SIO_TX_CLK_CH1, 1);
 	ctc->set_context_zc1(sio, SIG_Z80SIO_RX_CLK_CH1, 1);
-	ctc->set_constant_clock(0, CPU_CLOCKS / 13);	// ŽÀ‘ª 307.6KHz
-	ctc->set_constant_clock(1, CPU_CLOCKS / 13);	// (4MHz/13•ªŽü) / CTC:2•ªŽü / SIO:16•ªŽü = 9600 baud
-	ctc->set_constant_clock(2, 12500);		// ŽÀ‘ª 12.49KHz
-	ctc->set_constant_clock(3, 2500);		// ŽÀ‘ª 2.499KHz
+	ctc->set_constant_clock(0, CPU_CLOCKS / 13);	// å®Ÿæ¸¬ 307.6KHz
+	ctc->set_constant_clock(1, CPU_CLOCKS / 13);	// (4MHz/13åˆ†å‘¨) / CTC:2åˆ†å‘¨ / SIO:16åˆ†å‘¨ = 9600 baud
+	ctc->set_constant_clock(2, 12500);		// å®Ÿæ¸¬ 12.49KHz
+	ctc->set_constant_clock(3, 2500);		// å®Ÿæ¸¬ 2.499KHz
 #ifdef _M68
-	ctc2->set_constant_clock(0, 50);		// ŽÀ‘ª 50Hz
+	ctc2->set_constant_clock(0, 50);		// å®Ÿæ¸¬ 50Hz
 	ctc2->set_constant_clock(1, 50);
 	ctc2->set_constant_clock(2, 50);
 	ctc2->set_constant_clock(3, 50);

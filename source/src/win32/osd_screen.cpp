@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Skelton for retropc emulator
 
 	Author : Takeda.Toshiya
@@ -397,7 +397,7 @@ int OSD::draw_screen()
 #endif
 	
 #ifndef _UNITY
-	// MARU: ‚±‚±‚ªŽÀŽ¿“I‚ÈƒEƒBƒ“ƒhƒE•`‰æH
+	// MARU: ã“ã“ãŒå®Ÿè³ªçš„ãªã‚¦ã‚£ãƒ³ãƒ‰ã‚¦æç”»ï¼Ÿ
 	// invalidate window
 #ifdef ONE_BOARD_MICRO_COMPUTER
 	if(first_invalidate) {
@@ -543,7 +543,7 @@ void OSD::initialize_screen_buffer(bitmap_t *buffer, int width, int height, int 
 	HDC hdc = GetDC(main_window_handle);
 	buffer->hdcDib = CreateCompatibleDC(hdc);
 #if defined(_RGB565)
-	// thanks PC8801MA‰ü
+	// thanks PC8801MAæ”¹
 	buffer->lpBuf = (LPBYTE)GlobalAlloc(GPTR, sizeof(BITMAPINFOHEADER) + sizeof(DWORD) * 3);
 #else
 	buffer->lpBuf = (LPBYTE)GlobalAlloc(GPTR, sizeof(BITMAPINFO));

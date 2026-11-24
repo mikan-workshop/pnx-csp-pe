@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Skelton for retropc emulator
 
 	Origin : MAME Z80DMA / Xmillenium

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Main memory MMR for FM-7 [FM7_MAINMEM]
  *  Author: K.Ohta
  *  Date  : 2015.01.01-

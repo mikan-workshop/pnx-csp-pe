@@ -1,4 +1,4 @@
-/*
+﻿/*
  * FM77AV/FM16β ALU [mb61vh010.cpp]
  *  of Fujitsu MB61VH010/011
  *

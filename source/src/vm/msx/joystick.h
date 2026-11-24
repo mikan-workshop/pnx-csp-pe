@@ -1,4 +1,4 @@
-/*
+﻿/*
 	ASCII MSX1 Emulator 'yaMSX1'
 	ASCII MSX2 Emulator 'yaMSX2'
 	Pioneer PX-7 Emulator 'ePX-7'

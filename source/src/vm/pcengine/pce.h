@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC-HE PC Engine Emulator 'ePCEngine'
 	SHARP X1twin Emulator 'eX1twin'
 

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Skelton for retropc emulator
 
 	Author : Takeda.Toshiya
@@ -15,7 +15,7 @@
 #define EVENT_FM_TIMER	0
 
 #ifdef SUPPORT_MAME_FM_DLL
-// thanks PC8801MA‰ü
+// thanks PC8801MAæ”¹
 #include "fmdll/fmdll.h"
 static CFMDLL* fmdll = NULL;
 static int chip_reference_counter = 0;

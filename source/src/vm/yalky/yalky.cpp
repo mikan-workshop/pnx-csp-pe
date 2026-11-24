@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Yuasa Kyouiku System YALKY Emulator 'eYALKY'
 
 	Author : Takeda.Toshiya

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-3500 Emulator 'EmuZ-3500'
 
 	Author : Takeda.Toshiya

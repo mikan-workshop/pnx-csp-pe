@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Skelton for retropc emulator
 
 	Origin : Neko Project 2

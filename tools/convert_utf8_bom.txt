@@ -1,0 +1,13 @@
+﻿# 1. main ブランチにいることを確認
+git checkout main
+
+# 2. スクリプトを実行（Windowsなら python、Linux/MSYS2なら python3）
+python tools/convert_utf8_bom.py
+
+# 3. 差分を少し確認（日本語コメントが綺麗に読めるようになっているはず）
+git diff source/src/vm/fm7/mainmem.cpp
+
+# 4. コミット＆プッシュ
+git add -A
+git commit -m "chore: Convert source files from CP932 to UTF-8 with BOM"
+git push origin main

@@ -1,4 +1,4 @@
-/*
+﻿/*
  * FM-7 Main I/O [fm7_mainio.h]
  *
  * Author: K.Ohta <whatisthis.sowhat _at_ gmail.com>

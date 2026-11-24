@@ -1,4 +1,4 @@
-/*
+﻿/*
 	EPS TRN Junior Emulator 'eTRNJunior'
 
 	Author : Takeda.Toshiya

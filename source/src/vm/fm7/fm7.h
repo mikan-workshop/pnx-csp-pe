@@ -1,4 +1,4 @@
-/*
+﻿/*
 	FUJITSU FM7 Emulator 'eFM7'
 
 	Author : K.Ohta

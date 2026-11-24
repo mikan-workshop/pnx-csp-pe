@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CASIO PV-1000 Emulator 'ePV-1000'
 
 	Author : Takeda.Toshiya

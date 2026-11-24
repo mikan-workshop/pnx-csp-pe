@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-80A Emulator 'EmuZ-80A'
 
 	Author : Takeda.Toshiya

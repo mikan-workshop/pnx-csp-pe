@@ -1,1 +1,1 @@
-Based on MAME 0.152.
+﻿Based on MAME 0.152.

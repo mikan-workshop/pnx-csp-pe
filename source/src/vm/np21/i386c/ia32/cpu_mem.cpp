@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * Copyright (c) 2002-2004 NONAKA Kimihiro
  * All rights reserved.
  *
@@ -448,13 +448,13 @@ cpu_opcodefetch(UINT32 offset)
 	opcode = cpu_lmemoryread_w_codefetch(addr, ucrw);
 	if (offset <= limit - 1)
 	{
-		// 2byte‚Æ‚àˆá”½‚Å‚È‚¢ê‡ƒLƒƒƒbƒVƒ…‚·‚é
+		// 2byteã¨ã‚‚é•åã§ãªã„å ´åˆã‚­ãƒ£ãƒƒã‚·ãƒ¥ã™ã‚‹
 		opCache = opcode;
 		return opcode & 0xff;
 	}
 	else if (offset <= limit)
 	{
-		// 2ƒoƒCƒg–Ú‚ª‚Í‚Ýo‚µ‚Ä‚¢‚éê‡A–½—ß’·‚É‚æ‚Á‚Ä‚Í#GP‚È‚Ì‚Å1byte‚¾‚¯“Ç‚ñ‚ÅƒLƒƒƒbƒVƒ…‚Í‚µ‚È‚¢
+		// 2ãƒã‚¤ãƒˆç›®ãŒã¯ã¿å‡ºã—ã¦ã„ã‚‹å ´åˆã€å‘½ä»¤é•·ã«ã‚ˆã£ã¦ã¯#GPãªã®ã§1byteã ã‘èª­ã‚“ã§ã‚­ãƒ£ãƒƒã‚·ãƒ¥ã¯ã—ãªã„
 		opCache = 0;
 		return opcode & 0xff;
 	}

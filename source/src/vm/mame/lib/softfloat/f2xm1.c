@@ -1,4 +1,4 @@
-/*============================================================================
+﻿/*============================================================================
 This source file is an extension to the SoftFloat IEC/IEEE Floating-point
 Arithmetic Package, Release 2b, written for Bochs (x86 achitecture simulator)
 floating point emulation.

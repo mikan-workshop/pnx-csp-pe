@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifndef __INSTR86_H__
 #define __INSTR86_H__

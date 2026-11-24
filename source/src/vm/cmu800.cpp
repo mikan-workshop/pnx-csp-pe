@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Skelton for retropc emulator
 
 	Author : kuran_kuran
@@ -137,7 +137,7 @@ void CMU800::reset_midi()
 		d_midi->write_signal(SIG_MIDI_OUT, 0x78, 0xFF);
 		d_midi->write_signal(SIG_MIDI_OUT, 0, 0xFF);
 	}
-	// ‘Sƒ`ƒƒƒ“ƒlƒ‹ƒNƒ‰ƒrƒlƒbƒg‚É•ÏX
+	// å…¨ãƒãƒ£ãƒ³ãƒãƒ«ã‚¯ãƒ©ãƒ“ãƒãƒƒãƒˆã«å¤‰æ›´
 	d_midi->write_signal(SIG_MIDI_OUT, 0xC0, 0xFF);
 	d_midi->write_signal(SIG_MIDI_OUT, 0x07, 0xFF);
 	d_midi->write_signal(SIG_MIDI_OUT, 0xC1, 0xFF);
@@ -177,7 +177,7 @@ void CMU800::note_on_midi8253(int channel)
 
 void CMU800::note_on_midi(int channel)
 {
-	// 8253İ’è’l‚©‚çcv‚ğ‹‚ß‚é
+	// 8253è¨­å®šå€¤ã‹ã‚‰cvã‚’æ±‚ã‚ã‚‹
 	int val = counter[channel];
 	int back = -1;
 	for(int i = 0; i < array_length(counterTable); ++ i)
@@ -204,7 +204,7 @@ void CMU800::note_on_midi(int channel)
 	}
 	// note on
 	uint8_t key = cv + 24;
-	// cv‚ğ103ˆÈ“à‚É—}‚¦‚éB‰º‚°‚é‚Æ‚«‚Íˆê“x‚É1ƒIƒNƒ^[ƒu‰º‚°‚é
+	// cvã‚’103ä»¥å†…ã«æŠ‘ãˆã‚‹ã€‚ä¸‹ã’ã‚‹ã¨ãã¯ä¸€åº¦ã«1ã‚ªã‚¯ã‚¿ãƒ¼ãƒ–ä¸‹ã’ã‚‹
 	while(cv > 103)
 	{
 		cv -= 12;
@@ -323,12 +323,12 @@ void CMU800::write_io8(uint32_t addr, uint32_t data)
 				{
 					if(cv == 0)
 					{
-						// bugfire‚³‚ñ‚ÌƒvƒŒƒCƒ„[‚ÍŠù‚É8253İ’èÏ‚İ‚Åcv‚ª0‚È‚Ì‚Å‚·‚®‚É‰¹‚ğ–Â‚ç‚·
+						// bugfireã•ã‚“ã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã¯æ—¢ã«8253è¨­å®šæ¸ˆã¿ã§cvãŒ0ãªã®ã§ã™ãã«éŸ³ã‚’é³´ã‚‰ã™
 						note_on_midi(channel);
 					}
 					else
 					{
-						// CMU-800ƒV[ƒPƒ“ƒT[‚Í‚Ü‚¾8253‚Ìİ’è‚ªI‚í‚Á‚Ä‚¢‚È‚¢‚Ì‚Å8253İ’è‚É‰¹‚ğ–Â‚ç‚·‚½‚ß‚Ìƒtƒ‰ƒO‚ğƒZƒbƒg
+						// CMU-800ã‚·ãƒ¼ã‚±ãƒ³ã‚µãƒ¼ã¯ã¾ã 8253ã®è¨­å®šãŒçµ‚ã‚ã£ã¦ã„ãªã„ã®ã§8253è¨­å®šæ™‚ã«éŸ³ã‚’é³´ã‚‰ã™ãŸã‚ã®ãƒ•ãƒ©ã‚°ã‚’ã‚»ãƒƒãƒˆ
 						key_on[channel] = true;
 					}
 				}

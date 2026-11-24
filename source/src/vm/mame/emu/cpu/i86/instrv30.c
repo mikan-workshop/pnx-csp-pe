@@ -1,4 +1,4 @@
-static void PREFIXV30(_0fpre)(i8086_state *cpustate)	/* Opcode 0x0f */
+﻿static void PREFIXV30(_0fpre)(i8086_state *cpustate)	/* Opcode 0x0f */
 {
 	static const unsigned bytes[] = {
 		1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768

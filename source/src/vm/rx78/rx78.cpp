@@ -1,4 +1,4 @@
-/*
+﻿/*
 	BANDAI RX-78 Emulator 'eRX-78'
 
 	Author : Takeda.Toshiya

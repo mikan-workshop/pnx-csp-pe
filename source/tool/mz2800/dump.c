@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Dump MZ-2800 IPL ROM
 */
 

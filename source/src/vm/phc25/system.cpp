@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SANYO PHC-25 Emulator 'ePHC-25'
 	SEIKO MAP-1010 Emulator 'eMAP-1010'
 

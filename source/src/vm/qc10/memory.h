@@ -1,4 +1,4 @@
-/*
+﻿/*
 	EPSON QC-10 Emulator 'eQC-10'
 
 	Author : Takeda.Toshiya

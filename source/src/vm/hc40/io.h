@@ -1,4 +1,4 @@
-/*
+﻿/*
 	EPSON HC-40 Emulator 'eHC-40'
 
 	Author : Takeda.Toshiya

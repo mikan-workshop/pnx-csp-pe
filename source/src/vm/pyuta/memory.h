@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOMY PyuTa Emulator 'ePyuTa'
 
 	Author : Takeda.Toshiya

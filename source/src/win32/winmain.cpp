@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Skelton for retropc emulator
 
 	Author : Takeda.Toshiya
@@ -515,7 +515,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
 #endif
 		return TRUE;
 	case WM_ACTIVATE:
-		// thanks PC8801MA‰ü
+		// thanks PC8801MAæ”¹
 		if(LOWORD(wParam) != WA_INACTIVE) {
 			himcPrev = ImmAssociateContext(hWnd, 0);
 		} else {

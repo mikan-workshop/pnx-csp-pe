@@ -1,4 +1,4 @@
-retro pc emulator common source code
+ï»¿retro pc emulator common source code
 								11/9/2025
 
 --- What's this ?
@@ -359,7 +359,7 @@ See also COPYING.txt for more details about the license.
 	MESS PC-8801 driver
 - vm/pc9801/display.*
 	Neko Project 2 by Mr.Yui
-	Improved for EGC by Mr.Ryuji Okamoto (qemu/9821‰ü‘¢”Å)
+	Improved for EGC by Mr.Ryuji Okamoto (qemu/9821æ”¹é€ ç‰ˆ)
 - vm/pcengine/pce.*
 	Ootake (joypad)
 	xpce (psg)

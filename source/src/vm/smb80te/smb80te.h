@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP SM-B-80TE Emulator 'eSM-B-80TE'
 
 	Author : Takeda.Toshiya

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	DUMP PC-98HA 1MB MEMORY CARD
 */
 

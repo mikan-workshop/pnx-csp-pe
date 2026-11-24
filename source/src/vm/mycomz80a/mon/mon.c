@@ -1,4 +1,4 @@
-/*
+﻿/*
 	MYCOMZ-80A MONITOR
 
 	Author : Takeda.Toshiya

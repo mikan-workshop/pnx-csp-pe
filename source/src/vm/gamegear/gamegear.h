@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SEGA GAME GEAR Emulator 'yaGAME GEAR'
 
 	Author : tanam

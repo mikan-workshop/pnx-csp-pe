@@ -1,4 +1,4 @@
-
+﻿
 History of Major Changes to Berkeley SoftFloat, up to Release 2c
 
 John R. Hauser

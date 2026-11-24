@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	NEC PC-8001 Emulator 'ePC-8001'
 	NEC PC-8001mkII Emulator 'ePC-8001mkII'
 	NEC PC-8001mkIISR Emulator 'ePC-8001mkIISR'
@@ -197,7 +197,7 @@
 #define USE_MIDI
 #endif
 #define USE_KEY_LOCKED
-// slow enough for N88-“ú–{ŒêBASIC
+// slow enough for N88-æ—¥æœ¬èªžBASIC
 #define USE_AUTO_KEY		8
 #define USE_AUTO_KEY_RELEASE	10
 #define USE_AUTO_KEY_NUMPAD

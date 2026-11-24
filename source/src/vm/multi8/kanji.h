@@ -1,4 +1,4 @@
-/*
+﻿/*
 	MITSUBISHI Electric MULTI8 Emulator 'EmuLTI8'
 
 	Author : Takeda.Toshiya

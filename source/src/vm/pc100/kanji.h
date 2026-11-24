@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-100 Emulator 'ePC-100'
 
 	Author : Takeda.Toshiya

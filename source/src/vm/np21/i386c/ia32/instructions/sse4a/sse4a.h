@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2024 SimK
  * All rights reserved.
  *

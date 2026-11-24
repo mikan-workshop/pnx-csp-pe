@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA PASOPIA Emulator 'EmuPIA'
 
 	Author : Takeda.Toshiya

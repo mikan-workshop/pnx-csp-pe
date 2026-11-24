@@ -1,4 +1,4 @@
-
+﻿
 Berkeley SoftFloat Release 2c General Documentation
 
 John R. Hauser

@@ -1,7 +1,7 @@
-#ifndef	NP2_I386C_CPUMEM_H__
+ï»¿#ifndef	NP2_I386C_CPUMEM_H__
 #define	NP2_I386C_CPUMEM_H__
 
-#ifdef NP2_MEMORY_ASM			// ƒAƒZƒ“ƒuƒ‰”Å‚Í •K‚¸fastcall‚Å
+#ifdef NP2_MEMORY_ASM			// ã‚¢ã‚»ãƒ³ãƒ–ãƒ©ç‰ˆã¯ å¿…ãšfastcallã§
 #undef	MEMCALL
 #define	MEMCALL	FASTCALL
 #endif

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-98LT Emulator 'ePC-98LT'
 	NEC PC-98HA Emulator 'eHANDY98'
 

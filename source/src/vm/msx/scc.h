@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Common Source Code Project
 	MSX Series (experimental)
 

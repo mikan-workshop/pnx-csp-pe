@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Systems Formulate BUBCOM80 Emulator 'eBUBCOM80'
 
 	Author : Takeda.Toshiya
@@ -351,7 +351,7 @@ void DISPLAY::draw_text()
 					for(int i = 2 * (crtc.attrib.num - 1); i >= 0; i -= 2) {
 						flags[buffer[ofs + i + 80] & 0x7f] = 1;
 					}
-					crtc.attrib.data &= 0xf3; // for PC-8801mkIIFR •t‘®ƒfƒ‚
+					crtc.attrib.data &= 0xf3; // for PC-8801mkIIFR ä»˜å±žãƒ‡ãƒ¢
 					
 					for(int cx = 0, pos = 0; cx < crtc.width; cx++) {
 						if(flags[cx]) {
@@ -722,7 +722,7 @@ void crtc_t::expand_buffer()
 				for(int i = 2 * (attrib.num - 1); i >= 0; i -= 2) {
 					flags[read_buffer(ofs + i + 80) & 0x7f] = 1;
 				}
-				attrib.data &= 0xf3; // for PC-8801mkIIFR •t‘®ƒfƒ‚
+				attrib.data &= 0xf3; // for PC-8801mkIIFR ä»˜å±žãƒ‡ãƒ¢
 				
 				for(int cx = 0, pos = 0; cx < width; cx++) {
 					if(flags[cx]) {

@@ -1,4 +1,4 @@
-static unsigned EA_000(i8086_state *cpustate) { cpustate->icount-=7; cpustate->eo=(WORD)(cpustate->regs.w[BX]+cpustate->regs.w[SI]); cpustate->ea_seg=DefaultSeg(DS); cpustate->ea=DefaultBase(DS)+cpustate->eo; return cpustate->ea; }
+﻿static unsigned EA_000(i8086_state *cpustate) { cpustate->icount-=7; cpustate->eo=(WORD)(cpustate->regs.w[BX]+cpustate->regs.w[SI]); cpustate->ea_seg=DefaultSeg(DS); cpustate->ea=DefaultBase(DS)+cpustate->eo; return cpustate->ea; }
 static unsigned EA_001(i8086_state *cpustate) { cpustate->icount-=8; cpustate->eo=(WORD)(cpustate->regs.w[BX]+cpustate->regs.w[DI]); cpustate->ea_seg=DefaultSeg(DS); cpustate->ea=DefaultBase(DS)+cpustate->eo; return cpustate->ea; }
 static unsigned EA_002(i8086_state *cpustate) { cpustate->icount-=8; cpustate->eo=(WORD)(cpustate->regs.w[BP]+cpustate->regs.w[SI]); cpustate->ea_seg=DefaultSeg(SS); cpustate->ea=DefaultBase(SS)+cpustate->eo; return cpustate->ea; }
 static unsigned EA_003(i8086_state *cpustate) { cpustate->icount-=7; cpustate->eo=(WORD)(cpustate->regs.w[BP]+cpustate->regs.w[DI]); cpustate->ea_seg=DefaultSeg(SS); cpustate->ea=DefaultBase(SS)+cpustate->eo; return cpustate->ea; }

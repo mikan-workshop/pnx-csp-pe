@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CANON X-07 Emulator 'eX-07'
 
 	Author : Takeda.Toshiya

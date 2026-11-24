@@ -1,4 +1,4 @@
-/* converted by bin2array.sh */
+﻿/* converted by bin2array.sh */
 #ifndef __CSP_FM7_HIDDEN_MESSAGE_77AV_H 
 #define __CSP_FM7_HIDDEN_MESSAGE_77AV_H 
 const static uint8_t hidden_message_77av_1[] = {

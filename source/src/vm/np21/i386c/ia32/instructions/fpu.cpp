@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2012 NONAKA Kimihiro
  * All rights reserved.
  *
@@ -326,11 +326,11 @@ void
 FPU_FWAIT(void)
 {
 #if defined(USE_FPU)
-	// FPU�Ȃ��Ȃ牽�����Ȃ�
+	// FPUなしなら何もしない
 	if(!(i386cpuid.cpu_feature & CPU_FEATURE_FPU)){
 		return;
 	}
-	// �^�X�N�X�C�b�`�܂���MP��NM(�f�o�C�X�g�p�s��O)�𔭐�������
+	// タスクスイッチまたはMPでNM(デバイス使用不可例外)を発生させる
 	if ((CPU_CR0 & (CPU_CR0_MP|CPU_CR0_TS))==(CPU_CR0_MP|CPU_CR0_TS)) {
 		EXCEPTION(NM_EXCEPTION, 0);
 	}

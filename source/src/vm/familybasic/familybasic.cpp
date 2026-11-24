@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Nintendo Family BASIC Emulator 'eFamilyBASIC'
 
 	Origin : nester

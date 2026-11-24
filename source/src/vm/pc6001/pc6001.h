@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-6001 Emulator 'yaPC-6001'
 	NEC PC-6001mkII Emulator 'yaPC-6201'
 	NEC PC-6001mkIISR Emulator 'yaPC-6401'

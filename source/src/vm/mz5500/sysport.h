@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-5500 Emulator 'EmuZ-5500'
 
 	Author : Takeda.Toshiya

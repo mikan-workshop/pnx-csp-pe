@@ -1,4 +1,4 @@
-/*
+﻿/*
 	DUMP PC-98LT IPL/DICTIONARY/KANJI ROM
 */
 

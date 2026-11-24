@@ -1,4 +1,4 @@
-/*
+﻿/*
 	EPOCH Super Cassette Vision Emulator 'eSCV'
 
 	Author : Takeda.Toshiya

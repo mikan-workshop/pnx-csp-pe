@@ -1,4 +1,4 @@
-/*
+﻿/*
 	hdd image creater for eFMR-50
 	
 	Author : Takeda.Toshiya

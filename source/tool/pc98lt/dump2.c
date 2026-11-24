@@ -1,4 +1,4 @@
-/*
+﻿/*
 	DUMP PC-98LT ROM DRIVE
 */
 

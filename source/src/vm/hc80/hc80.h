@@ -1,4 +1,4 @@
-/*
+﻿/*
 	EPSON HC-80 Emulator 'eHC-80'
 
 	Author : Takeda.Toshiya

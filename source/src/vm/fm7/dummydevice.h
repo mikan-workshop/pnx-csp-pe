@@ -1,4 +1,4 @@
-/*
+﻿/*
  * I/O termination dummy [dummydevice.h]
  * 
  * Author: K.Ohta <whatisthis.sowhat _at_ gmail.com>

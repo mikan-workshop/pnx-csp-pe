@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-2800 Emulator 'EmuZ-2800'
 
 	Author : Takeda.Toshiya

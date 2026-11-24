@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA T-200/250 Emulator 'eT-250'
 
 	Author : Takeda.Toshiya

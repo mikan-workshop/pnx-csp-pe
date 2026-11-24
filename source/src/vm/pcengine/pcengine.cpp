@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC-HE PC Engine Emulator 'ePCEngine'
 
 	Author : Takeda.Toshiya

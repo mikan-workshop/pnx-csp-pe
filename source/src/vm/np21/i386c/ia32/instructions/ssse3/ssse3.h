@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2024 Gocaine Project
  * All rights reserved.
  *

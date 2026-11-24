@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Main memory for FM-7 [FM7_MAINMEM/MAINMEM_PAGE2]
  *  Author: K.Ohta
  *  Date  : 2017.04.01-

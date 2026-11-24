@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SANYO PHC-20 Emulator 'ePHC-20'
 
 	Author : Takeda.Toshiya

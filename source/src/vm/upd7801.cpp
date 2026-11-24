@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	Skelton for retropc emulator
 
 	Origin : MESS UPD7810 Core
@@ -1463,10 +1463,10 @@ int UPD7801::debug_dasm(uint32_t pc, _TCHAR *buffer, size_t buffer_len)
 		case 0xc1: my_stprintf_s(buffer, buffer_len, _T("mov a,pb")); break;
 		case 0xc2: my_stprintf_s(buffer, buffer_len, _T("mov a,pc")); break;
 		case 0xc3: my_stprintf_s(buffer, buffer_len, _T("mov a,mk")); break;
-		case 0xc4: my_stprintf_s(buffer, buffer_len, _T("mov a,mb")); break;	// –¢’è‹`?
-		case 0xc5: my_stprintf_s(buffer, buffer_len, _T("mov a,mc")); break;	// –¢’è‹`?
-		case 0xc6: my_stprintf_s(buffer, buffer_len, _T("mov a,tm0")); break;	// –¢’è‹`?
-		case 0xc7: my_stprintf_s(buffer, buffer_len, _T("mov a,tm1")); break;	// –¢’è‹`?
+		case 0xc4: my_stprintf_s(buffer, buffer_len, _T("mov a,mb")); break;	// æœªå®šç¾©?
+		case 0xc5: my_stprintf_s(buffer, buffer_len, _T("mov a,mc")); break;	// æœªå®šç¾©?
+		case 0xc6: my_stprintf_s(buffer, buffer_len, _T("mov a,tm0")); break;	// æœªå®šç¾©?
+		case 0xc7: my_stprintf_s(buffer, buffer_len, _T("mov a,tm1")); break;	// æœªå®šç¾©?
 		case 0xc8: my_stprintf_s(buffer, buffer_len, _T("mov a,s")); break;
 		default:
 			if(b < 0xc0) {

@@ -1,4 +1,4 @@
-#ifndef	NP2_I386C_CPUCORE_H__
+﻿#ifndef	NP2_I386C_CPUCORE_H__
 #define	NP2_I386C_CPUCORE_H__
 
 #include "ia32/cpu.h"

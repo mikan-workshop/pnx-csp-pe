@@ -1,4 +1,4 @@
-
+﻿
 /*============================================================================
 
 This C header file is part of the Berkeley SoftFloat IEEE Floating-Point

@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	NEC PC-9801 Emulator 'ePC-9801'
 	NEC PC-9801E/F/M Emulator 'ePC-9801E'
 	NEC PC-9801U Emulator 'ePC-9801U'
@@ -280,7 +280,7 @@
 #endif
 #define USE_KEY_LOCKED
 #if defined(_PC98DO) || defined(_PC98DOPLUS)
-// slow enough for N88-“ú–{ŒêBASIC
+// slow enough for N88-æ—¥æœ¬èªžBASIC
 #define USE_AUTO_KEY		8
 #define USE_AUTO_KEY_RELEASE	10
 #else

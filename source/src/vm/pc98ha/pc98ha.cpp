@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	NEC PC-98LT Emulator 'ePC-98LT'
 	NEC PC-98HA Emulator 'eHANDY98'
 
@@ -114,7 +114,7 @@ VM::VM(EMU* parent_emu) : VM_TEMPLATE(parent_emu)
 		4  RS-232C
 		5  
 		6  FDC
-		7  PIC•sŠ®‘SŠ„‚è‚İ
+		7  PICä¸å®Œå…¨å‰²ã‚Šè¾¼ã¿
 	*/
 	
 	// set contexts

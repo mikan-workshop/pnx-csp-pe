@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Homebrew Z80 TV GAME SYSTEM Emulator 'eZ80TVGAME'
 
 	Author : Takeda.Toshiya

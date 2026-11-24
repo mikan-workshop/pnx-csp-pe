@@ -1,4 +1,4 @@
-/*
+﻿/*
 	MITEC MP-85 Emulator 'eMP-85'
 
 	Author : Takeda.Toshiya

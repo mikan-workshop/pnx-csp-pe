@@ -1,4 +1,4 @@
-//
+﻿//
 // PC-6001/6601 disk I/O
 // This file is based on a disk I/O program in C++
 // by Mr. Yumitaro and translated into C for Cocoa iP6

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	IBM Japan Ltd PC/JX Emulator 'eJX'
 
 	Author : Takeda.Toshiya

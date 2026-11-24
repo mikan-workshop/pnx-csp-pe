@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA PASOPIA Emulator 'EmuPIA'
 	TOSHIBA PASOPIA 7 Emulator 'EmuPIA7'
 

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CASIO FP-1100 Emulator 'eFP-1100'
 
 	Author : Takeda.Toshiya

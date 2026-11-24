@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 	NEC PC-8001 Emulator 'ePC-8001'
 	NEC PC-8001mkII Emulator 'ePC-8001mkII'
 	NEC PC-8001mkIISR Emulator 'ePC-8001mkIISR'
@@ -33,7 +33,7 @@ void DiskIO::Reset(uint32_t a, uint32_t d)
 }
 
 // ---------------------------------------------------------------------------
-//	ÉRÉ}ÉìÉh
+//	„Ç≥„Éû„É≥„Éâ
 //
 void DiskIO::SetCommand(uint32_t a, uint32_t d)
 {
@@ -47,7 +47,7 @@ void DiskIO::SetCommand(uint32_t a, uint32_t d)
 }
 
 // ---------------------------------------------------------------------------
-//	ÉXÉeÅ[É^ÉX
+//	„Çπ„ÉÜ„Éº„Çø„Çπ
 //
 uint32_t DiskIO::GetStatus(uint32_t a)
 {
@@ -55,7 +55,7 @@ uint32_t DiskIO::GetStatus(uint32_t a)
 }
 
 // ---------------------------------------------------------------------------
-//	ÉfÅ[É^ÉZÉbÉg
+//	„Éá„Éº„Çø„Çª„ÉÉ„Éà
 //
 void DiskIO::SetData(uint32_t a, uint32_t d)
 {
@@ -71,7 +71,7 @@ void DiskIO::SetData(uint32_t a, uint32_t d)
 }
 
 // ---------------------------------------------------------------------------
-//	ÉfÅ[É^Ç∞Ç¡Ç∆
+//	„Éá„Éº„Çø„Åí„Å£„Å®
 //
 uint32_t DiskIO::GetData(uint32_t a)
 {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Dump FMR-60 FONT ROM
 */
 

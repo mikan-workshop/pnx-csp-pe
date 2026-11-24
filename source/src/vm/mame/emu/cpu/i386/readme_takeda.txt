@@ -1,4 +1,4 @@
-Based on MAME 0.152.
+﻿Based on MAME 0.152.
 Fixes in MAME 0.154 to 0.279 are applied.
 
 Mr. cracyc's fix is applied:

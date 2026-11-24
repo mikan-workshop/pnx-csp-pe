@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifndef __UPD7810_H__
 #define __UPD7810_H__

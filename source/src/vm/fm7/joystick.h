@@ -1,4 +1,4 @@
-/*
+﻿/*
  * FM-7 Keyboard [joystick.h]
  *
  * Author: K.Ohta <whatisthis.sowhat _at_ gmail.com>

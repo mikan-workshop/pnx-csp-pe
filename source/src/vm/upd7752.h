@@ -1,4 +1,4 @@
-// [OUT]
+﻿// [OUT]
 //  E0H : transfer voice parameter
 //  E1H : ?
 //  E2H : set mode : 0 0 0 0 F S1 S0

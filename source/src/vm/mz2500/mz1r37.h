@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-2500 Emulator 'EmuZ-2500'
 
 	Author : Takeda.Toshiya

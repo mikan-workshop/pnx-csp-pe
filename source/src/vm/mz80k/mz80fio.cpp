@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-80K/C Emulator 'EmuZ-80K'
 	SHARP MZ-1200 Emulator 'EmuZ-1200'
 

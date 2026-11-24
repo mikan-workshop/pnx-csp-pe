@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP MZ-700 Emulator 'EmuZ-700'
 	SHARP MZ-1500 Emulator 'EmuZ-1500'
 

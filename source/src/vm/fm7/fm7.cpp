@@ -1,4 +1,4 @@
-/*
+﻿/*
  * FM7 -> VM
  * (C) 2015 K.Ohta <whatisthis.sowhat _at_ gmail.com>
  * History:

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Systems Formulate BUBCOM80 Emulator 'eBUBCOM80'
 
 	Author : Takeda.Toshiya

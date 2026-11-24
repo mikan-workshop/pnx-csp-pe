@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA PASOPIA 7 Emulator 'EmuPIA7'
 
 	Author : Takeda.Toshiya

@@ -1,4 +1,4 @@
-/*
+Ôªø/*
 	TOSHIBA J-3100GT Emulator 'eJ-3100GT'
 	TOSHIBA J-3100SL Emulator 'eJ-3100SL'
 
@@ -27,7 +27,7 @@
 
 // TODO: check refresh rate
 #define FRAMES_PER_SEC		59.9
-// óví≤ç∏
+// Ë¶ÅË™øÊüª
 #define LINES_PER_FRAME 	440
 #define CHARS_PER_LINE		54
 #define CPU_CLOCKS		9545456

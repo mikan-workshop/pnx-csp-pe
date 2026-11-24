@@ -1,4 +1,4 @@
-/*
+﻿/*
 	GAKKEN TV BOY Emulator 'yaTVBOY'
 
 	Author : tanam

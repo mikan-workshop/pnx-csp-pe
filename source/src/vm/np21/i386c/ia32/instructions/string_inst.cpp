@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Copyright (c) 2003 NONAKA Kimihiro
  * All rights reserved.
  *
@@ -1089,7 +1089,7 @@ STOSD_YdEAX(void)
 	}
 }
 
-// rep�̂�
+// repのみ
 void
 STOSB_YbAL_rep(int reptype)
 {

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Hino Electronics CEFUCOM-21 Emulator 'eCEFUCOM-21'
 
 	Author : Takeda.Toshiya

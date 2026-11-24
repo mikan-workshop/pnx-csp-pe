@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Common definition of FM-7 [FM7_COMMON]
  *  Author: K.Ohta
  *  Date  : 2015.01.01-

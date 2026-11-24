@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Common source code project -> FM-7/77/AV -> Kanji rom
  * (C) 2015 K.Ohta <whatisthis.sowhat _at_ gmail.com>
  * License: GPLv2

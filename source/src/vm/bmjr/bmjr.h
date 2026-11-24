@@ -1,4 +1,4 @@
-/*
+﻿/*
 	HITACH BASIC Master Jr Emulator 'eBASICMasterJr'
 
 	Author : Takeda.Toshiya

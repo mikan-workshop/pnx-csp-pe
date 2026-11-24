@@ -1,4 +1,4 @@
-MAME note: this package is derived from the following original SoftFloat 
+﻿MAME note: this package is derived from the following original SoftFloat 
 package and has been "re-packaged" to work with MAME's conventions and
 build system.  The source files come from bits64/ and bits64/templates
 in the original distribution as MAME requires a compiler with a 64-bit

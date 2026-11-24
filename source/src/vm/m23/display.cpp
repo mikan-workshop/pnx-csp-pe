@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	SORD M23 Emulator 'Emu23'
 	SORD M68 Emulator 'Emu68'
 
@@ -14,8 +14,8 @@ const uint8_t pattern[][8] = {
 	/*
 		kanji/hira-gana in 0x00-0x1f, 0xe0-0xef are from:
 
-		8~8 ƒhƒbƒg“ú–{ŒêƒtƒHƒ“ƒgu”üçƒtƒHƒ“ƒgv
-			(2021-05-05a ”Å)
+		8Ã—8 ãƒ‰ãƒƒãƒˆæ—¥æœ¬èªãƒ•ã‚©ãƒ³ãƒˆã€Œç¾å’²ãƒ•ã‚©ãƒ³ãƒˆã€
+			(2021-05-05a ç‰ˆ)
 		Copyright(C) 2002-2021 Num Kadoma
 	*/
 	{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00},

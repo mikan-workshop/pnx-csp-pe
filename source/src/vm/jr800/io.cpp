@@ -1,4 +1,4 @@
-/*
+﻿/*
 	National JR-800 Emulator 'eJR-800'
 
 	Author : Takeda.Toshiya

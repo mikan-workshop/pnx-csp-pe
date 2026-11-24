@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Dump PC-9801E/F/M IPL ROM
 */
 

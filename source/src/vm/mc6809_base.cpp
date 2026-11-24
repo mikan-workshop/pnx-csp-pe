@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Skelton for retropc emulator
 
 	Origin : MAME 0.142
@@ -1457,8 +1457,8 @@ OP_HANDLER(sync_09)	// Rename 20101110
 
 /* $14 trap(HALT) */
 OP_HANDLER(trap) {
-	int_state |= MC6809_INSN_HALT;	// HALTフラグ
-	// Debug: トラチE�E要因
+	int_state |= MC6809_INSN_HALT;	// HALT繝輔Λ繧ｰ
+	// Debug: 繝医Λ繝・・隕∝屏
 	this->out_debug_log(_T("TRAP(HALT) @%04x %02x %02x\n"), PC - 1, RM((PC - 1)), RM(PC));
 }
 
@@ -1544,7 +1544,7 @@ OP_HANDLER(exg) {
 	t1.d = 0;
 	t2.d = 0;
 	/*
-	 * 20111011: 16bit vs 16Bitの演算にする(XM7/ cpu_x86.asmより
+	 * 20111011: 16bit vs 16Bit縺ｮ貍皮ｮ励↓縺吶ｋ(XM7/ cpu_x86.asm繧医ｊ
 	 */
 	{
 		switch ((tb >> 4) & 15) {
@@ -1701,7 +1701,7 @@ OP_HANDLER(tfr) {
 	IMMBYTE(tb);
 	t.d = 0;
 	/*
-	 * 20111011: 16bit vs 16Bitの演算にする(XM7/ cpu_x86.asmより)
+	 * 20111011: 16bit vs 16Bit縺ｮ貍皮ｮ励↓縺吶ｋ(XM7/ cpu_x86.asm繧医ｊ)
 	 */
 	{
 		switch ((tb >> 4) & 15) {

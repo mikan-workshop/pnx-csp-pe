@@ -1,4 +1,4 @@
-
+Ôªø
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -38,8 +38,8 @@ void main()
 	logfont.lfClipPrecision = CLIP_DEFAULT_PRECIS;
 	logfont.lfQuality = DEFAULT_QUALITY; 
 	logfont.lfPitchAndFamily = FIXED_PITCH | FF_DONTCARE;
-	strcpy(logfont.lfFaceName, "ÇlÇr ÉSÉVÉbÉN");
-//	strcpy(logfont.lfFaceName, "ÇlÇr ñæí©");
+	strcpy(logfont.lfFaceName, "Ôº≠Ôº≥ „Ç¥„Ç∑„ÉÉ„ÇØ");
+//	strcpy(logfont.lfFaceName, "Ôº≠Ôº≥ ÊòéÊúù");
 	logfont.lfHeight = 16;
 	logfont.lfWidth = 8;
 	HFONT hFont = CreateFontIndirect(&logfont);

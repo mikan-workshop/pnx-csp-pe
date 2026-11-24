@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Dump PC-98RL BIOS/KANJI ROM
 */
 

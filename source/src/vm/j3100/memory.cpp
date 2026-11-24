@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA J-3100GT Emulator 'eJ-3100GT'
 
 	Author : Takeda.Toshiya

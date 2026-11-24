@@ -1,4 +1,4 @@
-/*
+﻿/*
 	EPSON HC-20 Emulator 'eHC-20'
 
 	Author : Takeda.Toshiya

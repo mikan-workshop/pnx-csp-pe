@@ -1,4 +1,4 @@
-/*
+Ôªø/*
  * Copyright (c) 2002-2003 NONAKA Kimihiro
  * All rights reserved.
  *
@@ -196,7 +196,7 @@ ia32_setemm(UINT frame, UINT32 addr) {
 #endif
 
 /*
- * ÉÇÅ[ÉhëJà⁄
+ * „É¢„Éº„ÉâÈÅ∑Áßª
  */
 void CPUCALL
 change_pm(BOOL onoff)

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	TOSHIBA EX-80 Emulator 'eEX-80'
 
 	Author : Takeda.Toshiya

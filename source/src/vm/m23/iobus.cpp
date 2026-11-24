@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	SORD M23 Emulator 'Emu23'
 	SORD M68 Emulator 'Emu68'
 
@@ -30,9 +30,9 @@ void IOBUS::write_port(uint32_t addr, uint32_t data)
 	case 0xc5:
 		// 10, 11, 00
 /*
-E‘æ6ƒrƒbƒgF‹L˜^–§“xØ‚è‘Ö‚¦(’P–§“x‚Í1A”{–§“x‚Í0)
-E‘æ5ƒrƒbƒgF“Ç–Ê(Side)Ø‚è‘Ö‚¦(Side0‚Í0ASide1‚Í1)
-E‘æ3ƒrƒbƒgFNot Ready‚Ö‚Ì‘JˆÚBIn USE?
+ãƒ»ç¬¬6ãƒ“ãƒƒãƒˆï¼šè¨˜éŒ²å¯†åº¦åˆ‡ã‚Šæ›¿ãˆ(å˜å¯†åº¦ã¯1ã€å€å¯†åº¦ã¯0)
+ãƒ»ç¬¬5ãƒ“ãƒƒãƒˆï¼šèª­è¾¼é¢(Side)åˆ‡ã‚Šæ›¿ãˆ(Side0ã¯0ã€Side1ã¯1)
+ãƒ»ç¬¬3ãƒ“ãƒƒãƒˆï¼šNot Readyã¸ã®é·ç§»ã€‚In USE?
 */
 		break;
 	case 0xd4:

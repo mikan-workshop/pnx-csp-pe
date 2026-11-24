@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC TK-80BS (COMPO BS/80) Emulator 'eTK-80BS'
 
 	Author : Takeda.Toshiya

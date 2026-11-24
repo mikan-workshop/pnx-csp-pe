@@ -1,7 +1,7 @@
-#pragma once
+ï»¿#pragma once
 
-#define WIN32_LEAN_AND_MEAN             // Windows ƒwƒbƒ_[‚©‚çg—p‚³‚ê‚Ä‚¢‚È‚¢•”•ª‚ğœŠO‚µ‚Ü‚·B
-// Windows ƒwƒbƒ_[ ƒtƒ@ƒCƒ‹:
+#define WIN32_LEAN_AND_MEAN             // Windows ãƒ˜ãƒƒãƒ€ãƒ¼ã‹ã‚‰ä½¿ç”¨ã•ã‚Œã¦ã„ãªã„éƒ¨åˆ†ã‚’é™¤å¤–ã—ã¾ã™ã€‚
+// Windows ãƒ˜ãƒƒãƒ€ãƒ¼ ãƒ•ã‚¡ã‚¤ãƒ«:
 #include <Windows.h>
 
 #ifdef __cplusplus

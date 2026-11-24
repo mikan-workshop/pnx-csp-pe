@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-9801VX Emulator 'ePC-9801VX'
 	NEC PC-9801RA Emulator 'ePC-9801RA'
 	NEC PC-98XA Emulator 'ePC-98XA'

@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SONY SMC-70 Emulator 'eSMC-70'
 	SONY SMC-777 Emulator 'eSMC-777'
 

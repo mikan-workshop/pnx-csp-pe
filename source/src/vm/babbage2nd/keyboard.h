@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Gijutsu-Hyoron-Sha Babbage-2nd Emulator 'eBabbage-2nd'
 
 	Author : Takeda.Toshiya

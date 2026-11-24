@@ -1,4 +1,4 @@
-/*
+ï»¿/*
  * Copyright (c) 2002-2003 NONAKA Kimihiro
  * All rights reserved.
  *
@@ -119,7 +119,7 @@ _CPUID(void)
 		CPU_EBX = i386cpuid.cpu_brandid;
 		if (i386cpuid.cpu_feature & CPU_FEATURE_CLFSH)
 		{
-			CPU_EBX |= (8) << 8; // ƒLƒƒƒbƒVƒ…ƒ‰ƒCƒ“ƒTƒCƒY
+			CPU_EBX |= (8) << 8; // ã‚­ãƒ£ãƒƒã‚·ãƒ¥ãƒ©ã‚¤ãƒ³ã‚µã‚¤ã‚º
 		}
 		CPU_ECX = i386cpuid.cpu_feature_ecx & CPU_FEATURES_ECX_ALL;
 		CPU_EDX = i386cpuid.cpu_feature & CPU_FEATURES_ALL;
@@ -130,7 +130,7 @@ _CPUID(void)
 			CPU_EAX = 0x1;
 			CPU_EBX = 0;
 			CPU_ECX = 0;
-			CPU_EDX = 0x43; // 512KB L2 Cache ‚Ì‚Ó‚è
+			CPU_EDX = 0x43; // 512KB L2 Cache ã®ãµã‚Š
 		}else{
 			CPU_EAX = 0;
 			CPU_EBX = 0;
@@ -141,7 +141,7 @@ _CPUID(void)
 		
 	case 0x80000000:
 		CPU_EAX = 0x80000004;
-		if(strncmp(i386cpuid.cpu_vendor, CPU_VENDOR_AMD, 12)==0){ // AMD”»’è
+		if(strncmp(i386cpuid.cpu_vendor, CPU_VENDOR_AMD, 12)==0){ // AMDåˆ¤å®š
 			CPU_EBX = LOADINTELDWORD(((UINT8*)(i386cpuid.cpu_vendor+0)));
 			CPU_EDX = LOADINTELDWORD(((UINT8*)(i386cpuid.cpu_vendor+4)));
 			CPU_ECX = LOADINTELDWORD(((UINT8*)(i386cpuid.cpu_vendor+8)));
@@ -154,7 +154,7 @@ _CPUID(void)
 
 	case 0x80000001:
 		if (strncmp(i386cpuid.cpu_vendor, CPU_VENDOR_AMD, 12) == 0)
-		{ // AMD”»’è
+		{ // AMDåˆ¤å®š
 			if (i386cpuid.cpu_family >= 6 || (i386cpuid.cpu_family == 5 && i386cpuid.cpu_model >= 6))
 			{
 				CPU_EAX = ((i386cpuid.cpu_family + 1) << 8) | (i386cpuid.cpu_model << 4) | i386cpuid.cpu_stepping;

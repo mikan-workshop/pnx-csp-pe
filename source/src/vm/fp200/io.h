@@ -1,4 +1,4 @@
-/*
+﻿/*
 	CASIO FP-200 Emulator 'eFP-200'
 
 	Author : Takeda.Toshiya

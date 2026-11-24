@@ -1,4 +1,4 @@
-/*
+﻿/*
    NEC V-series Disassembler
 
    Originally Written for i386 by Ville Linde

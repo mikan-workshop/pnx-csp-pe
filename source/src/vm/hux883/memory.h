@@ -1,4 +1,4 @@
-/*
+﻿/*
 	Hudson HuX-883 Emulator 'eHuX-883'
 
 	Author : Takeda.Toshiya

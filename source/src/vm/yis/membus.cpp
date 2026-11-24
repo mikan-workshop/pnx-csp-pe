@@ -1,4 +1,4 @@
-/*
+﻿/*
 	YAMAHA YIS Emulator 'eYIS'
 
 	Author : Takeda.Toshiya

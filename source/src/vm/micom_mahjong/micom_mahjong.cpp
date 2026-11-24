@@ -1,4 +1,4 @@
-/*
+﻿/*
 	MICOM MAHJONG Emulator 'eMuCom Mahjong'
 
 	Author : Hiroaki GOTO as GORRY

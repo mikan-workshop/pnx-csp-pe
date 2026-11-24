@@ -1,4 +1,4 @@
-/*
+﻿/*
 	hdd image creater for EmuZ-2500
 	
 	Author : Takeda.Toshiya

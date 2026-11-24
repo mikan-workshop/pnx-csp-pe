@@ -1,4 +1,4 @@
-/*
+﻿/*
 	National JR-100 Emulator 'eJR-100'
 
 	Author : Takeda.Toshiya

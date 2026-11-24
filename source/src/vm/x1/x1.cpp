@@ -1,4 +1,4 @@
-/*
+﻿/*
 	SHARP X1 Emulator 'eX1'
 	SHARP X1twin Emulator 'eX1twin'
 	SHARP X1turbo Emulator 'eX1turbo'

@@ -1,4 +1,4 @@
-#define DIVIDE_BY_ZERO 0
+﻿#define DIVIDE_BY_ZERO 0
 #define SINGLE_STEP 1
 #define NMI 2
 #define BREAK 3

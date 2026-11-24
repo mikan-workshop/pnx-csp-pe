@@ -1,4 +1,4 @@
-/*
+ï»¿/*
 	NEC PC-8001 Emulator 'ePC-8001'
 	NEC PC-8001mkII Emulator 'ePC-8001mkII'
 	NEC PC-8001mkIISR Emulator 'ePC-8001mkIISR'
@@ -259,8 +259,8 @@ static const int key_conv_table[][3] = {
 	{0x79, 0x74, 1}, // F10	-> SHIFT + F5
 //	{0x08, 0x2e, 0}, // BS	-> DEL
 	{0x2e, 0x08, 0}, // DEL	-> BS
-	{0x1c, 0x20, 0}, // •ÏŠ·-> SPACE
-	{0x1d, 0x20, 0}, // Œˆ’è-> SPACE
+	{0x1c, 0x20, 0}, // å¤‰æ›-> SPACE
+	{0x1d, 0x20, 0}, // æ±ºå®š-> SPACE
 };
 
 static const uint8_t intr_mask2_table[8] = {
@@ -1826,7 +1826,7 @@ uint32_t PC88::read_io8_debug(uint32_t addr)
 				val |= d_scsi_host->read_signal(SIG_SCSI_CD ) ? 0x10 : 0;
 				val |= d_scsi_host->read_signal(SIG_SCSI_IO ) ? 0x08 : 0;
 			}
-			// do not show BSY,MSG,CxD,IxD when SEL=1 (M’·‚Ì–ì–] •«•—‰_˜^)
+			// do not show BSY,MSG,CxD,IxD when SEL=1 (ä¿¡é•·ã®é‡Žæœ› æ­¦å°†é¢¨é›²éŒ²)
 			if(port[0x90] & 0x01) {
 				val &= ~(0x80 | 0x20 | 0x10 | 0x08);
 				val |= (port[0x9f] & 0x01); // correct ???
@@ -3154,7 +3154,7 @@ void PC88::draw_text()
 					for(int i = 2 * (crtc.attrib.num - 1); i >= 0; i -= 2) {
 						flags[buffer[ofs + i + 80] & 0x7f] = 1;
 					}
-					crtc.attrib.data &= 0xf3; // for PC-8801mkIIFR •t‘®ƒfƒ‚
+					crtc.attrib.data &= 0xf3; // for PC-8801mkIIFR ä»˜å±žãƒ‡ãƒ¢
 					
 					for(int cx = 0, pos = 0; cx < crtc.width; cx++) {
 						if(flags[cx]) {
@@ -3256,7 +3256,7 @@ void PC88::draw_text()
 			uint8_t color_tmp = color;
 			bool reverse_tmp = reverse;
 			
-			// from ePC-8801MA‰ü
+			// from ePC-8801MAæ”¹
 //			if(Port31_GRAPH && !Port31_HCOLOR) {
 			if(attrib_graph) {
 				if(reverse) {
@@ -3277,7 +3277,7 @@ void PC88::draw_text()
 				uint8_t pat = (l < 8) ? pattern[l] : 0;
 				
 				if(Port30_40) {
-					// from ePC-8801MA‰ü
+					// from ePC-8801MAæ”¹
 					static const uint8_t wct[16] = {
 						0x00, 0x03, 0x0c, 0x0f, 0x30, 0x33, 0x3c, 0x3f, 0xc0, 0xc3, 0xcc, 0xcf, 0xf0, 0xf3, 0xfc, 0xff
 					};
@@ -3999,7 +3999,7 @@ void pc88_crtc_t::expand_buffer(bool hireso, bool line400)
 				for(int i = 2 * (attrib.num - 1); i >= 0; i -= 2) {
 					flags[read_buffer(ofs + i + 80) & 0x7f] = 1;
 				}
-				attrib.data &= 0xf3; // for PC-8801mkIIFR •t‘®ƒfƒ‚
+				attrib.data &= 0xf3; // for PC-8801mkIIFR ä»˜å±žãƒ‡ãƒ¢
 				
 				for(int cx = 0, pos = 0; cx < width; cx++) {
 					if(flags[cx]) {
@@ -4032,7 +4032,7 @@ underrun:
 			// SORCERIAN Music Library ver-2.1
 			memset(&attrib.expand[cy][0], 0xe0, width); // color=7
 #else
-			// from ePC-8801MA‰ü
+			// from ePC-8801MAæ”¹
 			memset(&attrib.expand[cy][0], 0x00, width);
 #endif
 		}

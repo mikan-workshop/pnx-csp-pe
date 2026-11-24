@@ -1,4 +1,4 @@
-/*
+﻿/*
 	NEC PC-6001 Emulator 'yaPC-6001'
 
 	Author : Takeda.Toshiya

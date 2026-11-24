@@ -1,4 +1,4 @@
-static void PREFIXV30(_0fpre)(i8086_state *cpustate);
+﻿static void PREFIXV30(_0fpre)(i8086_state *cpustate);
 static void PREFIXV30(_repnc)(i8086_state *cpustate);
 static void PREFIXV30(_repc)(i8086_state *cpustate);
 static void PREFIXV30(_aam)(i8086_state *cpustate);
